@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0px;
+    margin: 10px;
+    padding: 0px;pwd
     overflow: hidden;
     background-color: #FFFFFF;
   }
@@ -10,16 +10,7 @@ ul {
     float: right;
   }
   
-  li a {
-    display: inline;
-    list-style-type: none;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
+  li{
     background-color: #FFFFFF;
   }
   /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -36,10 +27,10 @@ ul {
     display: table;
   }
   .j1{
-   padding: 30%;
-   width: 50%;
+   padding: 20%
+   width: 60%
     border: groove;
-    background-origin: padding-box;
+    
 
 
 }
