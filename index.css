@@ -157,14 +157,23 @@ section1{
     width: 100%;
    
 }
+.ksh{
+    font-weight: bold;
+    color: black;
+    float: left;
+    font-size: larger;
+    position: relative;
+    left: 5px;
+}
 .mn2{
     text-align: center;
     font-size: smaller;
     margin: 35px;
-    border: 3px solid gray;
+    border: 3px solid whitesmoke;
     border-radius: 30px;
     height: 380px;
     width: 300px;
+    box-shadow: 2px 2px whitesmoke;
     
 }
 .mn2>img{
@@ -179,8 +188,9 @@ section1{
 
 
 .section4{
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     height: 680px;
+    background-color: whitesmoke;
 }
 .d1>img{
     height: 400px;
@@ -198,16 +208,70 @@ section1{
 }
 .join{
     position: relative;
-    top: 100px;
+    top: 5px;
+    width: 600px;
 }
-.texi>h2{
+.texi>h1{
     font-size: xx-large;
 }
-.texi>h2>span{
+.texi{
+    position: relative;
+    top: 250px;
+    left: 90px;
+}
+.texi>h1>span{
     font-size: xx-large;
     color: #F6B400;
 }
-.texi>h2>p{
+.texi>h1>p{
     color: gray;
     font-weight: bold;
+    position: relative;
+    left: 800px;
+}
+.round1{
+    display: flex;
+}
+#round{
+    border: 2px solid orange;
+    height: 20px;
+    width: 20px ;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 20px;
+}
+.round{
+    border: 2px solid gray;
+    height: 20px;
+    width: 20px ;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 20px;
+}
+.section5{
+    border: 2px solid #F6B400;
+    height: 550px;
+    display: flex;
+    background-color:#F6B400; ;
+}
+.object2>img{
+    border: 2px blue;
+    height: 500px;
+    width: 450px;
+    position: relative;
+    right: -300px;
+}
+.logoh{
+    display: flex;
+    
+}
+.logoh1>img{
+    width: 190px;
+    height: 70px;
+    margin-right: 25px;
+}
+.object1{
+    position: relative;
+    left: 100px;
+    top: 130px;
 }
