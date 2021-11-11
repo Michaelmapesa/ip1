@@ -1,40 +1,76 @@
+header{
+    border: 2px solid red;
+    height: 600px;
+}
 .logoname{
     float: left;
+}
+#p1{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-size: larger;
 
+}
+#p1>span{
+color: yellow;
+}
+.logoname>img{
+    position: relative;
+    left: 30px;
+    top: 10px;
 }
 .list>ul{
     display: flex;
     float: right;
     list-style-type: none;
     position: relative;
-    left: -200px;
+    right: -200px;
+    margin-top:-20px;
 }
 .list>ul>li{
-    margin: 8px;
+    margin-right: 70px;
     padding: 2px;
+    font-size: medium;
     
 }
 .mage1>img{
-    height: 380px;
-    width: 300px;
+    height: 500px;
+    width: 350px;
     float: right;
     position: relative;
-    right: -150px;
-    top: 100px;
+    right: 160px;
+    top: 60px;
 }
-.explanation1{
+.expl1{
     position: relative;
-    top: 200px;
+    top: 160px;
+    left: 30px;
+}
+#order1{
+    position: relative;
+    top: 270px;
+    left: 70px;
+    border: 2px solid #F6B400;
+    width: 70px;
+    height: 40px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 30px 30px 0px 30px;
+    background-color: yellow;
+}
+.section2{
+    border: 2px solid blue;
+    height: 600px;
+    background-color: #E1EBE6;
 }
 
 .container1{
     display: flex;
     position: relative;
-    top: 200px;
-    width: 80%;
-    left: 10%;
-    justify-content: center;
-    background-color: #e1ebe6;
+    top: 80px;
+    justify-content: space-evenly;
+
 
 
 }   
@@ -43,8 +79,22 @@ margin-right: 25px;
     border: 1px solid #73313c;
     padding: 15px;
     border-radius: 15px;
+    height: 280px;
+    width: 300px;
+    position: relative;
+    top: 50px;
     text-align: center;
+    
 } 
+.quality1{
+        border: 1px solid #73313c;
+        padding: 15px;
+        border-radius: 15px;
+        height: 380px;
+        width: 350px;
+        text-align: center;
+    } 
+
 .quality>h2{
     color: #73313c;
 }
@@ -55,20 +105,32 @@ section1{
     position: relative;
     top: 300px;
 }
-.container3{
+
+
+
+
+.section3{
+    border: 2px solid brown;
+    height: 1000px;
+}
+.description{
     position: relative;
-    top: 300px;
+    top: 60px;
+}
+.container3{
     display: flex;
-    width: 100%;
+    width: 100
    
 }
 
 .mn1{
     text-align: center;
     font-size: smaller;
-    margin-right: 25px;
+    margin: 35px;
     border: 3px solid gray;
     border-radius: 30px;
+    height: 350px;
+    width: 300px;
 }
 .mn1>img{
     height: 120px;
@@ -79,8 +141,6 @@ section1{
     color: #73313c;
 }
 .container4{
-    position: relative;
-    top: 320px;
     display: flex;
     width: 100%;
    
@@ -88,9 +148,11 @@ section1{
 .mn2{
     text-align: center;
     font-size: smaller;
-    margin-right: 25px;
+    margin: 35px;
     border: 3px solid gray;
     border-radius: 30px;
+    height: 350px;
+    width: 300px;
     
 }
 .mn2>img{
