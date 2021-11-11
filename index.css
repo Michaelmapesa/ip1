@@ -275,3 +275,6 @@ section1{
     left: 100px;
     top: 130px;
 }
+.section6{
+    display: flex;
+}
