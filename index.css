@@ -283,16 +283,30 @@ section1{
 }
 .section6{
     display: flex;
+    background-color: whitesmoke;
+    height: 250px;
 }
 .state{
     position: relative;
     left: 250px;
 }
+#p2{
+    font-size: x-large;
+    position: relative;
+    left: 90px;
+    top: -70px;
+    
+}
+#p2>span{
+    color: #F6B400;
+
+}
 .state2{
     position: relative;
-    right: -500px;
+    right: -600px;
+    top: 50px;
 }
-.state2>form>span{
+.state2>form>{
     border: 2px solid blue;
     height: 100px;
     width: 100px;
