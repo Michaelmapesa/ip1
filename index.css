@@ -263,7 +263,12 @@ section1{
 }
 .logoh{
     display: flex;
-    
+    justify-content: space-between;
+}
+.logoname2{
+    position: relative;
+    left: 100px;
+    top: 30px;
 }
 .logoh1>img{
     width: 190px;
@@ -272,9 +277,24 @@ section1{
 }
 .object1{
     position: relative;
-    left: 100px;
+    left: 1o0px;
     top: 130px;
+    
 }
 .section6{
     display: flex;
+}
+.state{
+    position: relative;
+    left: 250px;
+}
+.state2{
+    position: relative;
+    right: -500px;
+}
+.state2>form>span{
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    color: red;
 }
