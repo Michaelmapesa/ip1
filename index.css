@@ -1,6 +1,8 @@
 header{
     border: 2px solid red;
     height: 600px;
+    background-color:  yellow;
+    background-position: 50% right;
 }
 .logoname{
     float: left;
@@ -41,6 +43,16 @@ color: yellow;
     position: relative;
     right: 160px;
     top: 60px;
+}
+#modify{
+    position: relative;
+    left: -70px; 
+    font-size: xx-large;   
+}
+#modify1{
+    position: relative;
+    left: 20px;
+    font-size: xx-large;
 }
 .expl1{
     position: relative;
@@ -259,11 +271,13 @@ section1{
     height: 500px;
     width: 450px;
     position: relative;
-    right: -300px;
+    right: -180px;
 }
 .logoh{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    left: 50px;
 }
 .logoname2{
     position: relative;
@@ -277,14 +291,14 @@ section1{
 }
 .object1{
     position: relative;
-    left: 1o0px;
+    left: 80px;
     top: 130px;
     
 }
 .section6{
     display: flex;
     background-color: whitesmoke;
-    height: 250px;
+    height: 200px;
 }
 .state{
     position: relative;
@@ -311,4 +325,20 @@ section1{
     height: 100px;
     width: 100px;
     color: red;
+}
+.section7{
+    border: 2px solid white;
+    height: 20px;
+    font-weight: bolder;
+    font-size: smaller;
+    display: flex;
+}
+.footer{
+    position: relative;
+    left: 70px;
+    top: -12px;
+}
+.footer1{
+    position: relative;
+    right: -800px;
 }
