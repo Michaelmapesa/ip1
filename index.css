@@ -1,8 +1,8 @@
 header{
-    border: 2px solid red;
+    border: 2px solid white;
     height: 600px;
-    background-color:  yellow;
-    background-position: 50% right;
+    background-color: white;
+    background: linear-gradient(95deg, #fff 55%, #F6B400 20%);
 }
 .logoname{
     float: left;
@@ -11,7 +11,7 @@ header{
     position: relative;
     left: 30px;
     top: 30px;
-    font-size: larger;
+    font-size: x-large;
 
 }
 #p1>span{
@@ -27,7 +27,7 @@ color: yellow;
     float: right;
     list-style-type: none;
     position: relative;
-    right: -200px;
+    right: -150px;
     margin-top:-20px;
 }
 .list>ul>li{
@@ -42,7 +42,7 @@ color: yellow;
     float: right;
     position: relative;
     right: 160px;
-    top: 60px;
+    top: 50px;
 }
 #modify{
     position: relative;
@@ -61,8 +61,8 @@ color: yellow;
 }
 #order1{
     position: relative;
-    top: 270px;
-    left: 70px;
+    top: 250px;
+    left: 100px;
     border: 2px solid #F6B400;
     width: 70px;
     height: 40px;
